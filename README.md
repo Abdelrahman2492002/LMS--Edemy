@@ -1,8 +1,31 @@
-# React + Vite
+# 📚 LMS - Learning Management System  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🏆 Overview  
+LMS (Learning Management System) is a fully responsive platform that allows instructors and students to manage educational content seamlessly. The system enables adding courses, viewing them, and interacting with content in an intuitive way.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+- 📌 **Course Management**: Easily add, edit, and delete courses.  
+- 🎥 **Course Viewing**: Supports videos, documents, and quizzes.  
+- 👨‍🏫 **Instructor Dashboard**: Manage courses and interact with students.  
+- 🎓 **Student Dashboard**: Track progress, view courses, and engage with instructors.  
+- 📊 **Comprehensive UI**: Displays statistics, controls content, and enhances user experience.  
+- 🔍 **Advanced Search**: Find courses by category or instructor.  
+
+---
+
+## 🌐 Fully Responsive  
+Works smoothly on all devices (PC, Tablet, Mobile).  
+
+---
+
+## 🚀 Technologies Used  
+
+### 🖥️ Frontend  
+- **React.js**  
+- **Tailwind CSS**  
+
+---
+
+🛠️ **Contributions welcome!** Feel free to fork, open issues, or submit PRs.  
