@@ -1,7 +1,10 @@
-import Hero from "../../components/student/Hero";
-import Companies from "../../components/student/Companies";
-import CoursesSection from "../../components/student/CoursesSection";
-import Testimonials from "../../components/student/Testimonials";
+import Footer from "../../components/student/Footer/Footer";
+import CallToAction from "../../components/student/home/CallToAction";
+import Companies from "../../components/student/home/Companies";
+import CoursesSection from "../../components/student/home/CoursesSection";
+import Hero from "../../components/student/home/Hero";
+import Testimonials from "../../components/student/home/Testimonials";
+
 const Home = () => {
   return (
     <div>
@@ -9,6 +12,8 @@ const Home = () => {
       <Companies />
       <CoursesSection />
       <Testimonials />
+      <CallToAction />
+      <Footer />
     </div>
   );
 };

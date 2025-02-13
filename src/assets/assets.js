@@ -103,6 +103,7 @@ export const dummyEducatorData = {
 
 export const dummyTestimonial = [
   {
+    id: "ewe2",
     name: "Donald Jackman",
     role: "SWE 1 @ Amazon",
     image: assets.profile_img_1,
@@ -111,6 +112,7 @@ export const dummyTestimonial = [
       "I've been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
   },
   {
+    id: "edsdse2",
     name: "Richard Nelson",
     role: "SWE 2 @ Samsung",
     image: assets.profile_img_2,
@@ -119,6 +121,7 @@ export const dummyTestimonial = [
       "I've been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
   },
   {
+    id: "sass90",
     name: "James Washington",
     role: "SWE 2 @ Google",
     image: assets.profile_img_3,

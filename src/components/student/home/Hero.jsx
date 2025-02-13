@@ -1,5 +1,5 @@
-import { assets } from "../../assets/assets";
-import SearchBar from "./SearchBar";
+import { assets } from "../../../assets/assets";
+import SearchBar from "../../common/SearchBar";
 
 const Hero = () => {
   return (
@@ -13,12 +13,12 @@ const Hero = () => {
           alt="sketch image"
         />
       </h1>
-      <p className="mt-6 hidden max-w-2xl text-center leading-6 text-gray-600 sm:block">
+      <p className="mb-10 mt-6 hidden max-w-2xl text-center leading-6 text-gray-600 sm:block">
         We bring together world-class instructors, interactive content, and a
         supportive community to help you achieve your personal and professional
         goals.
       </p>
-      <p className="mt-6 text-center text-sm leading-4 text-gray-600 sm:hidden">
+      <p className="mb-10 mt-6 text-center text-sm leading-4 text-gray-600 sm:hidden">
         We bring together world-class instructors to help you achieve your
         professional goals.
       </p>

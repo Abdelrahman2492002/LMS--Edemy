@@ -1,12 +1,12 @@
-import { assets } from "../../assets/assets";
+import { assets } from "../../../assets/assets";
 
 const Companies = () => {
   return (
-    <div className="mb-28 sm:mb-32">
+    <div className="mb-28 px-1 sm:mb-32">
       <h3 className="mb-3 mt-28 text-center text-sm font-medium text-gray-600 sm:mb-9 sm:text-base">
         Trusted by learners from
       </h3>
-      <div className="mx-auto flex flex-wrap items-center justify-center gap-x-16 gap-y-7">
+      <div className="mx-auto flex flex-wrap items-center justify-center gap-x-9 gap-y-7">
         <img
           className="w-20 md:w-28"
           src={assets.microsoft_logo}

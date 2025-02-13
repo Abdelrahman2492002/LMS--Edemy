@@ -8,13 +8,12 @@ const SearchBar = (data) => {
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    navigate(`/coursesList/${input}`);
-    console.log(input);
+    navigate(`/courses-list/${input}`);
   };
   return (
     <form
       onSubmit={onSubmitHandler}
-      className="mt-10 flex h-10 w-full items-center gap-2 rounded-md border border-gray-500/20 p-1 sm:h-14 sm:max-w-xl"
+      className="flex h-10 w-full items-center gap-2 rounded-md border border-gray-500/20 p-1 sm:h-14 sm:max-w-xl"
     >
       <img
         src={assets.search_icon}
